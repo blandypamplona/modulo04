@@ -1,0 +1,45 @@
+@media only screen
+and (min-width : 1224px) {
+	.profile__author{
+		width: 40%;
+	}
+	.profile__author--curriculum{
+		width: 60%;
+	}
+
+	.author__image{
+		margin: 0 auto;
+		width: 25%;
+	}
+	.gallery__item{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;   
+		float: left;
+		padding: 0.2em;
+		padding-top: 0;
+		width: 33.33333%;
+	}
+	.gallery__item--video{
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;   
+		padding: 0.2em;
+		padding-top: 0;
+		width: 100%;
+	}
+		.gallery__item--video iframe{
+			display: block;
+			height: 315px;
+			margin: 0 auto;
+			max-width: 560px;
+			width: 100%;
+		}
+
+	.gallery__item--link{
+		float: left;
+		display: block;
+		width: 30%;
+		padding: 0 10%;
+	}
+}
